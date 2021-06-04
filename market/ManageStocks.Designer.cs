@@ -1,0 +1,223 @@
+﻿
+namespace market
+{
+    partial class ManageStocks
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageStocks));
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.decreasebtn = new System.Windows.Forms.Button();
+            this.increasebtn = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtCount = new System.Windows.Forms.TextBox();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.ID = new System.Windows.Forms.ColumnHeader();
+            this.محصول = new System.Windows.Forms.ColumnHeader();
+            this.CHgp = new System.Windows.Forms.ColumnHeader();
+            this.CHsubgp = new System.Windows.Forms.ColumnHeader();
+            this.CHcount = new System.Windows.Forms.ColumnHeader();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.decreasebtn);
+            this.groupBox1.Controls.Add(this.increasebtn);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.txtCount);
+            this.groupBox1.Location = new System.Drawing.Point(637, 48);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(368, 272);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            // 
+            // decreasebtn
+            // 
+            this.decreasebtn.BackColor = System.Drawing.Color.Yellow;
+            this.decreasebtn.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.decreasebtn.Location = new System.Drawing.Point(56, 195);
+            this.decreasebtn.Name = "decreasebtn";
+            this.decreasebtn.Size = new System.Drawing.Size(94, 29);
+            this.decreasebtn.TabIndex = 4;
+            this.decreasebtn.Text = "کاهش";
+            this.decreasebtn.UseVisualStyleBackColor = false;
+            this.decreasebtn.Click += new System.EventHandler(this.decreasebtn_Click);
+            // 
+            // increasebtn
+            // 
+            this.increasebtn.BackColor = System.Drawing.Color.Yellow;
+            this.increasebtn.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.increasebtn.Location = new System.Drawing.Point(226, 195);
+            this.increasebtn.Name = "increasebtn";
+            this.increasebtn.Size = new System.Drawing.Size(94, 29);
+            this.increasebtn.TabIndex = 2;
+            this.increasebtn.Text = "افزایش";
+            this.increasebtn.UseVisualStyleBackColor = false;
+            this.increasebtn.Click += new System.EventHandler(this.increasebtn_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Vazir", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
+            this.label2.Location = new System.Drawing.Point(312, 88);
+            this.label2.Name = "label2";
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label2.Size = new System.Drawing.Size(56, 32);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "تعداد:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Vazir", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Yellow;
+            this.label1.Location = new System.Drawing.Point(295, 33);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label1.Size = new System.Drawing.Size(76, 32);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "محصول:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(92, 37);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(151, 28);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // txtCount
+            // 
+            this.txtCount.Location = new System.Drawing.Point(118, 93);
+            this.txtCount.Name = "txtCount";
+            this.txtCount.Size = new System.Drawing.Size(125, 27);
+            this.txtCount.TabIndex = 0;
+            // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ID,
+            this.محصول,
+            this.CHgp,
+            this.CHsubgp,
+            this.CHcount});
+            this.listView1.FullRowSelect = true;
+            this.listView1.GridLines = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(12, 48);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(585, 270);
+            this.listView1.TabIndex = 5;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            // 
+            // ID
+            // 
+            this.ID.Text = "ID";
+            this.ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ID.Width = 100;
+            // 
+            // محصول
+            // 
+            this.محصول.Text = "محصول";
+            this.محصول.Width = 100;
+            // 
+            // CHgp
+            // 
+            this.CHgp.Text = "گروه";
+            this.CHgp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CHgp.Width = 100;
+            // 
+            // CHsubgp
+            // 
+            this.CHsubgp.Text = "مجموعه";
+            this.CHsubgp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CHsubgp.Width = 100;
+            // 
+            // CHcount
+            // 
+            this.CHcount.Text = "ظرفیت";
+            this.CHcount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CHcount.Width = 100;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(890, 570);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "خروج";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // ManageStocks
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1008, 623);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "ManageStocks";
+            this.Text = "ManageStocks";
+            this.Load += new System.EventHandler(this.ManageStocks_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button decreasebtn;
+        private System.Windows.Forms.Button increasebtn;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtCount;
+        private System.Windows.Forms.ColumnHeader مجموعه;
+        private System.Windows.Forms.ColumnHeader ظرفیت;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader ID;
+        private System.Windows.Forms.ColumnHeader محصول;
+        private System.Windows.Forms.ColumnHeader CHgp;
+        private System.Windows.Forms.ColumnHeader CHsubgp;
+        private System.Windows.Forms.ColumnHeader CHcount;
+        private System.Windows.Forms.Button button1;
+    }
+}
